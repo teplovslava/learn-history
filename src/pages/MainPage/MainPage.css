@@ -1,0 +1,78 @@
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+}
+
+.hero{
+    background-color: rgb(0, 255, 200);
+}
+
+h1{
+    margin: 0;padding: 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.logo p{
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-top: -3px;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.24);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    gap: 20px;
+    line-height: 24px;
+}
+
+.nav-list li{
+   padding: 4px;
+}
+
+.settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.nav-list .login{
+    font-size: 18px;
+    margin-left: 60px;
+    padding:7px 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

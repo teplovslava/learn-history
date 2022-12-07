@@ -1,0 +1,8 @@
+.container{
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 100vh;
+    background: rgb(66,99,255);
+    background: linear-gradient(157deg, rgba(66,99,255,1) 0%, rgba(87,255,204,1) 52%, rgba(143,87,255,1) 100%);
+    padding: 40px;
+}
