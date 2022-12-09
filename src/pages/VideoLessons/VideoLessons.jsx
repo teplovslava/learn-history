@@ -34,7 +34,17 @@ function VideoLessons() {
           {
             arr.map((video,i)=>(
               <li  key={i}>
-                <h4 className={active===i?style.openThemeTitle:style.themeTitle} onClick={()=>openVideo(i)}>{video.theme} <FiChevronDown className={active===i?style.openedThemeSvg:style.closedThemeSvg}/></h4>
+                <h4 
+                  className={active===i
+                              ?style.openThemeTitle
+                              :style.themeTitle} 
+                  onClick={()=>openVideo(i)}>
+                    {video.theme.length>40?`${video.theme.slice(0,40)}...`:video.theme}  
+                    <FiChevronDown 
+                    className={active===i
+                                ?style.openedThemeSvg
+                                :style.closedThemeSvg}/>
+                </h4>
                 <video ref={(ref) => VideoRef.current.push(ref)} className={active===i?style.openedTheme:style.closedTheme}
                   controlsList="nodownload" 
                   controls="controls" 
